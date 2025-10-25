@@ -3,43 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Enes Çekin - Bilgisayar Programcısı Portfolyo">
-    <meta name="keywords" content="bilgisayar programcısı, php, mysql, web geliştirme, github, portfolyo">
-    <title>Enes Çekin - Bilgisayar Programcısı</title>
+    <meta name="description" content="Enes Çekin - Profesyonel Web Geliştirici Portfolyo">
+    <meta name="keywords" content="web geliştirici, php, mysql, javascript, html, css, portfolyo">
+    <title>Enes Çekin - Profesyonel Web Geliştirici</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="icon" href="img/i.jpg" type="image/jpg">
 </head>
 <body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h2>Enes Çekin</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Ana Sayfa</a></li>
+                <li><a href="#about">Hakkımda</a></li>
+                <li><a href="#skills">Yetenekler</a></li>
+                <li><a href="#projects">Projeler</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="container">
             <div class="hero-content">
-                <div class="profile-section">
-                    <div class="profile-img">
-                        <img src="img/i.jpg" alt="Enes Çekin">
-                    </div>
-                    <div class="profile-badge">
-                        <span class="badge-text">Bilgisayar Programcısı</span>
+                <div class="hero-text">
+                    <h4>Merhaba, Ben</h4>
+                    <h1>Enes Çekin</h1>
+                    <h2>Profesyonel Web Geliştirici</h2>
+                    <p>PHP, MySQL, JavaScript, HTML ve CSS ile 4+ yıllık deneyime sahip bir web geliştiriciyim. Kullanıcı dostu, hızlı ve ölçeklenebilir web uygulamaları geliştiriyorum.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn primary">Projelerimi İncele</a>
+                        <a href="#contact" class="btn secondary">İletişime Geç</a>
                     </div>
                 </div>
-                <div class="hero-text">
-                    <h1>Enes Çekin</h1>
-                    <h2>Full Stack Developer</h2>
-                    <p>PHP, JavaScript ve modern web teknolojileriyle kullanıcı odaklı, ölçeklenebilir uygulamalar geliştiriyorum. 4+ yıllık deneyimle projelerinize değer katmaya hazırım.</p>
-                    <div class="hero-buttons">
-                        <a href="#projects" class="btn primary">Projelerim</a>
-                        <a href="#contact" class="btn secondary">İletişim</a>
+                <div class="hero-image">
+                    <div class="profile-frame">
+                        <img src="img/i.jpg" alt="Enes Çekin">
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="hero-wave">
-            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-            </svg>
         </div>
     </section>
 
@@ -51,21 +66,28 @@
                 <div class="section-line"></div>
             </div>
             <div class="about-content">
+                <div class="about-image">
+                    <img src="img/i.jpg" alt="Enes Çekin">
+                </div>
                 <div class="about-text">
+                    <h3>4+ Yıllık Web Geliştirme Deneyimi</h3>
                     <p>Merhaba! Ben Enes, bilgisayar programcılığı alanında uzmanlaşmış bir yazılım geliştiriciyim. Web geliştirme konusunda 4 yıldan fazla pratik deneyime sahibim ve bu süreçte hem frontend hem backend teknolojilerinde kendimi geliştirdim.</p>
-                    <p>PHP, JavaScript, MySQL gibi teknolojilerle çalışarak kullanıcı dostu, hızlı ve erişilebilir web uygulamaları geliştiriyorum. Takım çalışmasına yatkın biriyim ve yeni teknolojiler öğrenmeye her zaman açığım.</p>
-                    <div class="stats">
-                        <div class="stat-item">
-                            <h3>4+</h3>
-                            <p>Yıl Deneyim</p>
-                        </div>
-                        <div class="stat-item">
-                            <h3>20+</h3>
+                    <p>PHP, MySQL, HTML, CSS ve JavaScript gibi teknolojilerle çalışarak kullanıcı dostu, hızlı ve erişilebilir web uygulamaları geliştiriyorum. Takım çalışmasına yatkın biriyim ve yeni teknolojiler öğrenmeye her zaman açığım.</p>
+                    <div class="achievements">
+                        <div class="achievement">
+                            <i class="fas fa-code"></i>
+                            <h4>20+</h4>
                             <p>Proje Tamamlandı</p>
                         </div>
-                        <div class="stat-item">
-                            <h3>5+</h3>
-                            <p>Programlama Dili</p>
+                        <div class="achievement">
+                            <i class="fas fa-users"></i>
+                            <h4>10+</h4>
+                            <p>Müşteri Memnuniyeti</p>
+                        </div>
+                        <div class="achievement">
+                            <i class="fas fa-award"></i>
+                            <h4>4+</h4>
+                            <p>Yıl Deneyim</p>
                         </div>
                     </div>
                 </div>
@@ -77,60 +99,119 @@
     <section class="skills" id="skills">
         <div class="container">
             <div class="section-header">
-                <h2>Yetenekler & Teknolojiler</h2>
+                <h2>Yeteneklerim</h2>
                 <div class="section-line"></div>
+                <p>4+ yıllık deneyimle sahip olduğum teknik yetenekler</p>
             </div>
             <div class="skills-content">
                 <div class="skills-grid">
                     <div class="skill-category">
                         <div class="skill-header">
-                            <i class="fas fa-code"></i>
-                            <h3>Diller</h3>
-                        </div>
-                        <ul>
-                            <li><span class="skill-name">PHP</span><div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div></li>
-                            <li><span class="skill-name">JavaScript</span><div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div></li>
-                            <li><span class="skill-name">Java</span><div class="skill-bar"><div class="skill-level" style="width: 70%"></div></div></li>
-                            <li><span class="skill-name">SQL/MySQL</span><div class="skill-bar"><div class="skill-level" style="width: 80%"></div></div></li>
-                        </ul>
-                    </div>
-                    <div class="skill-category">
-                        <div class="skill-header">
                             <i class="fas fa-laptop-code"></i>
-                            <h3>Frontend</h3>
+                            <h3>Frontend Geliştirme</h3>
                         </div>
-                        <ul>
-                            <li><span class="skill-name">HTML5</span><div class="skill-bar"><div class="skill-level" style="width: 95%"></div></div></li>
-                            <li><span class="skill-name">CSS3</span><div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div></li>
-                            <li><span class="skill-name">Responsive Tasarım</span><div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div></li>
-                            <li><span class="skill-name">Bootstrap</span><div class="skill-bar"><div class="skill-level" style="width: 80%"></div></div></li>
-                            <li><span class="skill-name">Temel React / Vue</span><div class="skill-bar"><div class="skill-level" style="width: 60%"></div></div></li>
-                        </ul>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <h4>HTML5</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95%"></div>
+                                </div>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                            <div class="skill-item">
+                                <h4>CSS3</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90%"></div>
+                                </div>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-item">
+                                <h4>JavaScript</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-item">
+                                <h4>Bootstrap</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                        </div>
                     </div>
                     <div class="skill-category">
                         <div class="skill-header">
                             <i class="fas fa-server"></i>
-                            <h3>Backend</h3>
+                            <h3>Backend Geliştirme</h3>
                         </div>
-                        <ul>
-                            <li><span class="skill-name">PHP (proje tecrübesi)</span><div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div></li>
-                            <li><span class="skill-name">Laravel (başlangıç) / CodeIgniter</span><div class="skill-bar"><div class="skill-level" style="width: 70%"></div></div></li>
-                            <li><span class="skill-name">Node.js, Express (temel)</span><div class="skill-bar"><div class="skill-level" style="width: 65%"></div></div></li>
-                            <li><span class="skill-name">RESTful API'ler</span><div class="skill-bar"><div class="skill-level" style="width: 75%"></div></div></li>
-                            <li><span class="skill-name">Git & GitHub</span><div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div></li>
-                        </ul>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <h4>PHP</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90%"></div>
+                                </div>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-item">
+                                <h4>MySQL</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-item">
+                                <h4>Java</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70%"></div>
+                                </div>
+                                <span class="skill-percent">70%</span>
+                            </div>
+                            <div class="skill-item">
+                                <h4>Laravel</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="60%"></div>
+                                </div>
+                                <span class="skill-percent">60%</span>
+                            </div>
+                        </div>
                     </div>
                     <div class="skill-category">
                         <div class="skill-header">
                             <i class="fas fa-tools"></i>
-                            <h3>Araçlar & Diğer</h3>
+                            <h3>Araçlar & Teknolojiler</h3>
                         </div>
-                        <ul>
-                            <li><span class="skill-name">Docker (temel)</span><div class="skill-bar"><div class="skill-level" style="width: 60%"></div></div></li>
-                            <li><span class="skill-name">AWS (temel)</span><div class="skill-bar"><div class="skill-level" style="width: 55%"></div></div></li>
-                            <li><span class="skill-name">Temel Linux</span><div class="skill-bar"><div class="skill-level" style="width: 70%"></div></div></li>
-                            <li><span class="skill-name">Proje & Versiyon Kontrol</span><div class="skill-bar"><div class="skill-level" style="width: 80%"></div></div></li>
-                        </ul>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <h4>Git & GitHub</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-item">
+                                <h4>VS Code</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95%"></div>
+                                </div>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                            <div class="skill-item">
+                                <h4>XAMPP</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-item">
+                                <h4>Responsive Design</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90%"></div>
+                                </div>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -143,6 +224,7 @@
             <div class="section-header">
                 <h2>Projelerim</h2>
                 <div class="section-line"></div>
+                <p>Geliştirdiğim bazı öne çıkan projeler</p>
             </div>
             <div class="projects-grid">
                 <div class="project-card">
@@ -230,6 +312,23 @@
                         </div>
                     </div>
                 </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://placehold.co/600x400/9b59b6/ffffff?text=YurtKayıt" alt="YurtKayıt Project">
+                        <div class="project-overlay">
+                            <a href="https://github.com/enescekin45/yurtkay-t" target="_blank" class="project-link">GitHub'da Görüntüle</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>YurtKayıt</h3>
+                        <p>Yurt kayıt sistemi. Öğrencilerin yurt başvurularını online olarak yapabileceği ve yöneticilerin başvuruları yönetebileceği kapsamlı bir sistem.</p>
+                        <div class="project-tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -240,6 +339,7 @@
             <div class="section-header">
                 <h2>İletişim</h2>
                 <div class="section-line"></div>
+                <p>Projelerinizde işbirliği yapmak ister misiniz?</p>
             </div>
             <div class="contact-content">
                 <div class="contact-info">
@@ -264,25 +364,49 @@
                             <p><a href="https://github.com/enescekin45" target="_blank">github.com/enescekin45</a></p>
                         </div>
                     </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p><a href="https://www.linkedin.com/in/enes-%C3%A7ekin-00762634a/" target="_blank">linkedin.com/in/enes-çekin</a></p>
+                        </div>
+                    </div>
                 </div>
                 <div class="social-links">
-                    <a href="https://github.com/enescekin45" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://www.youtube.com/@Codinexis01" target="_blank"><i class="fab fa-youtube"></i></a>
-                    <a href="https://www.linkedin.com/in/enes-%C3%A7ekin-00762634a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <h3>Sosyal Medya</h3>
+                    <div class="social-icons">
+                        <a href="https://github.com/enescekin45" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.youtube.com/@Codinexis01" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/in/enes-%C3%A7ekin-00762634a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2025 Enes Çekin. Tüm hakları saklıdır.</p>
-            <div class="footer-links">
-                <a href="#top">Başa Dön</a>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Enes Çekin</h2>
+                    <p>Profesyonel Web Geliştirici</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Ana Sayfa</a>
+                    <a href="#about">Hakkımda</a>
+                    <a href="#skills">Yetenekler</a>
+                    <a href="#projects">Projeler</a>
+                    <a href="#contact">İletişim</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Enes Çekin. Tüm hakları saklıdır.</p>
             </div>
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
